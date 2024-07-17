@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя личная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .photo, .code {
+            border: 1px solid #dddddd;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .photo img {
+            max-width: 100%;
+            height: auto;
+        }
+        .code pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            overflow-x: auto;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .resume {
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #dddddd;
+        }
+        h1, h2 {
+            color: #333333;
+        }
+        a {
+            color: #1e90ff;
+        }
+        @media (max-width: 600px) {
+            .content {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Моя личная страница</h1>
+    </header>
+    <div class="content">
+        <section class="photo">
+            <h2>Фотография</h2>
+            <img src="your-photo-url.jpg" alt="Моя фотография">
+        </section>
+        <section class="resume">
+            <h2>Резюме</h2>
+            <p>Здесь будет размещено ваше резюме. Добавьте свой текст здесь.</p>
+            <!-- Добавьте ваш текст резюме -->
+        </section>
+        <section class="code">
+            <h2>Программный код</h2>
+            <pre>
+                <code>
+/* Добавьте свой программный код здесь */
+function helloWorld() {
+    console.log("Hello, World!");
+}
+                </code>
+            </pre>
+        </section>
+    </div>
+</body>
+</html>
